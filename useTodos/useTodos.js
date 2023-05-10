@@ -1,5 +1,5 @@
 import { useReducer, useEffect } from 'react';
-import { todoReducer } from '../08-useReducer/todoReducer';
+import { todoReducer } from './todoReducer';
 
 // Esta función nos permite que los datos sean persistentesm, es decir, que no se pierdan los datos del localStorage al momento de recargar el navegador 
 const init = () => {
